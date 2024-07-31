@@ -29,6 +29,12 @@ const Projects = () => {
           githubLink="https://github.com/Isira-Wasala/Java-Queue-Management-System-for-Food-Center"
         />
         <ProjectsCard
+          title="Food Queue Management System"
+          des="Queue Management System is designed to streamline customer service in food centers by managing customer queues efficiently. It offers features such as ticket generation, real-time queue monitoring, and updates for both customers and staff. This system is developed using Java, focusing on enhancing operational efficiency and improving customer experience."
+          src={projectTwo}
+          githubLink="https://github.com/Isira-Wasala/Java-Queue-Management-System-for-Food-Center"
+        />
+        <ProjectsCard
           title="Shopping Cart Management System"
           des="Shopping Cart Management System enables users to browse products, add items to their cart, and proceed to checkout seamlessly. It includes robust features for inventory management and order processing. Developed with Java and Java Swing, this system offers a user-friendly interface and efficient handling of shopping cart operations."
           src={projectThree}
