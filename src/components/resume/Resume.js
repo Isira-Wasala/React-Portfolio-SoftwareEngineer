@@ -9,11 +9,19 @@ const Resume = () => {
 
   return (
     <section id="resume" className="w-full py-20 border-b-[1px] border-b-black">
-      <div className="flex justify-center items-center text-center">
-        <Title title="7+ YEARS OF EXPERIENCE" des="My Resume" />
+      <div className="flex flex-col items-center text-center">
+        <Title title="4+ YEARS OF EXPERIENCE" des="My Resume" />
+        <a
+          href="https://drive.google.com/file/d/1Ob-ITTvV7K9Bc7fQzxsms9H5w7gKnYci/view?usp=sharing"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="mt-0 px-6 py-2 text-white bg-designColor rounded-lg shadow-lg hover:bg-opacity-90 transition-opacity duration-300"
+        >
+          Download My Resume
+        </a>
       </div>
       <div>
-        <ul className="w-full grid grid-cols-1 md:grid-cols-2 xl:grid-cols-2">
+        <ul className="w-full grid grid-cols-1 md:grid-cols-2 xl:grid-cols-2 mt-6">
           <li
             onClick={() =>
               setEducationData(true) & setSkillData(false)

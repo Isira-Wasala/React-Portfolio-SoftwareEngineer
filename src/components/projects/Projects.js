@@ -9,11 +9,19 @@ const Projects = () => {
       id="projects"
       className="w-full py-20 border-b-[1px] border-b-black"
     >
-      <div className="flex justify-center items-center text-center">
+      <div className="flex flex-col items-center text-center">
         <Title
-          title="VISIT MY PORTFOLIO AND KEEP YOUR FEEDBACK"
+          title="VISIT MY PORTFOLIO AND SEND YOUR FEEDBACK"
           des="My Projects"
         />
+        <a
+          href="https://github.com/Isira-Wasala"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="mt-2 mb-6 px-6 py-2 text-white bg-designColor rounded-lg shadow-lg hover:bg-opacity-90 transition-opacity duration-300"
+        >
+          Visit GitHub
+        </a>
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6 xl:gap-14">
         <div className="md:col-span-1">
