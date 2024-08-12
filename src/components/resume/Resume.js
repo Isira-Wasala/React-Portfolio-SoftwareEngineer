@@ -12,7 +12,7 @@ const Resume = () => {
       <div className="flex flex-col items-center text-center">
         <Title title="4+ YEARS OF EXPERIENCE" des="My Resume" />
         <a
-          href="https://drive.google.com/file/d/1Ob-ITTvV7K9Bc7fQzxsms9H5w7gKnYci/view?usp=sharing"
+          href="https://drive.google.com/file/d/1bdCL-1E_7LfhZfDhcitVw2q2Re-mA0_W/view?usp=sharing"
           target="_blank"
           rel="noopener noreferrer"
           className="mt-0 px-6 py-2 text-white bg-designColor rounded-lg shadow-lg hover:bg-opacity-90 transition-opacity duration-300"
